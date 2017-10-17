@@ -1,0 +1,17 @@
+<ion-view view-title="Dashboard">
+	<ion-content class="padding">
+		<div class="list">
+			<label class="item item-input">
+				Price: &nbsp;<input type="text" ng-model="subscriptionPrice"/>
+			</label>
+			<label class="item item-input">
+				Subscription: &nbsp;<input type="text" ng-model="subscriptionName"/>
+			</label>
+		</div>
+		
+		<button class="button button-positive button-block" ng-click="payWithPayPal()">
+			<i class="icon ion-card"></i>
+			Pay with PayPal
+		</button>
+	</ion-content>
+</ion-view>
